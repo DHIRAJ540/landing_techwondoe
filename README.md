@@ -1,47 +1,58 @@
-# Getting Started with Create React App
+# Welcome to Techwondoe landing page!
+Link to project
+https://techwondoe1.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
 
-## Available Scripts
+ - ReactJS
+ - TypeScript
+ - Tailwind CSS
+ - Sanity.io
+ - Storybook
+ - CSS
 
-In the project directory, you can run:
+## How to install and run
 
-### `npm start`
+ 1. First you can download the zip file or clone th project on top right menu.
+ 2. After downloading unzip the folder and enter.
+ 3. At the root in terminal either do `npm i` or`npm install` to download all the packages.
+ 4. After downloading all the dependencies do `npm start` . It will start your react deployment server.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Run Storybook
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ 1. In the root folder at the terminal run `npm run storybook` to run and use storybook. I will open a page in your browser from where you can manage all the components.
 
-### `npm test`
+## Run Sanity.io
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 1. In the terminal type `cd techwondoe`.
+ 2. After that type `sanity start` it will start you sanity server.
+ 3. You can manage your database from the browser.
 
-### `npm run build`
+## Upload to github
+ 1. In the .gitignore file add `/techwondoe/node_modules` 
+ 2. Then create a new Repo at github.
+ 3. Copy and paste all the codes given at github in your root terminal.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deploy to Netlify
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 1. Create an account at Netlify.com
+ 2. Got to **Add site** option.
+ 3. You can choose your project from github and select **deploay**. Your project will be deployed autometicall and you will be given a project link.
+ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Task done
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ - [x] -   Each section of the homepage must be a separate react component.
+ - [x] -   Developed using Typescript
+ - [x] -   Used tailwindcss
+ - [x] -   No hardcoding of text in react app. All the content (text and images) must be coming from a Headless CMS through its API. Used Saity.io.
+ - [x] -   Enabled theming with just 2 colors i.e primary and secondary and font family
+ - [x] -   Created Typography components for H1, H2, and Paragraph
+	 - -   Button - Primary and secondary
+	 - -   Typography - H1, H2, Paragraph
+	 - -   Sub-component of the `Why Choose us` section with icon, title and paragraph.
+ - [x] -   Prettier and Linter configuration
+ - [x] -   Hosted the page on Netlify.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# landing_techwondoe
+ 
