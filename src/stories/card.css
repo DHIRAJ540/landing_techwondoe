@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.storybook-card {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.storybook-card h2 {
+  font-size: 18px;
+  margin-left: 1rem;
+  margin-block: 0.5rem;
+}
+
+.storybook-card p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 40px;
+  line-height: 1.3rem;
+  letter-spacing: 0.5px;
+  margin-block: 0.3rem;
+  text-align: left;
+}
+
+.half {
+  width: 300px;
+}

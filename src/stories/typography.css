@@ -1,0 +1,22 @@
+.storybook-typo {
+  font-family: "Poppins", sans-serif;
+}
+
+.h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.half {
+  width: 300px;
+}

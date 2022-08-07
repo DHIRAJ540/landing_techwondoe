@@ -1,0 +1,45 @@
+.storybook-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-weight: normal;
+}
+.storybook-button--primary {
+  color: white;
+  background-color: #e6692e;
+  transition: all 200ms ease;
+}
+.storybook-button--secondary {
+  color: #e6692e;
+  background-color: white;
+  outline: none;
+  border: none;
+  transition: all 200ms ease;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.storybook-button--primary:hover {
+  background: #fff;
+  outline: 1px solid #e6692e;
+  color: #e6692e;
+}
+
+.storybook-button--secondary:hover {
+  color: white;
+  background-color: #e6692e;
+}
